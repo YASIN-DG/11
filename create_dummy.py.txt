@@ -1,0 +1,16 @@
+import os
+
+project_dir = r"C:\Users\Marmosh 002\Desktop\000\attendance-system"
+templates_dir = os.path.join(project_dir, "templates")
+static_dir = os.path.join(project_dir, "static")
+
+os.makedirs(templates_dir, exist_ok=True)
+os.makedirs(static_dir, exist_ok=True)
+
+# إنشاء ملف HTML افتراضي إذا لم يكن موجوداً
+index_path = os.path.join(templates_dir, "index.html")
+if not os.path.exists(index_path):
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write("<html><body><h1>Smart Attendance System</h1></body></html>")
+
+print("تم تجهيز المجلدات والملفات بنجاح!")

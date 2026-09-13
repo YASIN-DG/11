@@ -1,0 +1,491 @@
+INFO:root:test
+2026-08-19 03:39:26,396 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-19 03:39:26,396 - INFO - [33mPress CTRL+C to quit[0m
+2026-08-19 03:39:26,837 - INFO - Request: GET http://127.0.0.1:5000/
+2026-08-19 03:39:26,859 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:26] "GET / HTTP/1.1" 200 -
+2026-08-19 03:39:26,878 - INFO - Request: GET http://127.0.0.1:5000/style.css
+2026-08-19 03:39:26,878 - INFO - Request: GET http://127.0.0.1:5000/script.js
+2026-08-19 03:39:26,879 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:26] "GET /style.css HTTP/1.1" 200 -
+2026-08-19 03:39:26,879 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:26] "GET /script.js HTTP/1.1" 200 -
+2026-08-19 03:39:35,981 - INFO - Request: GET http://127.0.0.1:5000/api/config
+2026-08-19 03:39:35,983 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:35] "GET /api/config HTTP/1.1" 200 -
+2026-08-19 03:39:36,573 - INFO - Request: GET http://127.0.0.1:5000/favicon.ico
+2026-08-19 03:39:36,574 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-19 03:39:47,039 - INFO - Request: POST http://127.0.0.1:5000/api/login
+2026-08-19 03:39:47,039 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:47] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-08-19 03:39:47,053 - INFO - Request: POST http://127.0.0.1:5000/api/login
+2026-08-19 03:39:47,054 - INFO - 127.0.0.1 - - [19/Aug/2026 03:39:47] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-08-19 03:41:55,141 - INFO - Request: GET http://127.0.0.1:5000/
+2026-08-19 03:41:55,142 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:55] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-19 03:41:55,153 - INFO - Request: GET http://127.0.0.1:5000/style.css
+2026-08-19 03:41:55,154 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-19 03:41:55,161 - INFO - Request: GET http://127.0.0.1:5000/script.js
+2026-08-19 03:41:55,161 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:55] "GET /script.js HTTP/1.1" 200 -
+2026-08-19 03:41:55,318 - INFO - Request: GET http://127.0.0.1:5000/api/config
+2026-08-19 03:41:55,319 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:55] "GET /api/config HTTP/1.1" 200 -
+2026-08-19 03:41:58,622 - INFO - Request: GET http://127.0.0.1:5000/kiosk.html
+2026-08-19 03:41:58,623 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:58] "GET /kiosk.html HTTP/1.1" 200 -
+2026-08-19 03:41:58,655 - INFO - Request: GET http://127.0.0.1:5000/sounds/success.wav
+2026-08-19 03:41:58,656 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:58] "[35m[1mGET /sounds/success.wav HTTP/1.1[0m" 206 -
+2026-08-19 03:41:58,658 - INFO - Request: GET http://127.0.0.1:5000/sounds/alert.wav
+2026-08-19 03:41:58,658 - INFO - 127.0.0.1 - - [19/Aug/2026 03:41:58] "[35m[1mGET /sounds/alert.wav HTTP/1.1[0m" 206 -
+2026-08-19 03:42:47,547 - INFO - Request: GET http://127.0.0.1:5000/
+2026-08-19 03:42:47,548 - INFO - 127.0.0.1 - - [19/Aug/2026 03:42:47] "[36mGET / HTTP/1.1[0m" 304 -
+2026-08-19 03:42:47,559 - INFO - Request: GET http://127.0.0.1:5000/style.css
+2026-08-19 03:42:47,559 - INFO - 127.0.0.1 - - [19/Aug/2026 03:42:47] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2026-08-19 03:42:47,561 - INFO - Request: GET http://127.0.0.1:5000/script.js
+2026-08-19 03:42:47,562 - INFO - 127.0.0.1 - - [19/Aug/2026 03:42:47] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2026-08-19 03:42:47,972 - INFO - Request: GET http://127.0.0.1:5000/api/config
+2026-08-19 03:42:47,974 - INFO - 127.0.0.1 - - [19/Aug/2026 03:42:47] "GET /api/config HTTP/1.1" 200 -
+2026-08-19 03:42:58,431 - INFO - Request: POST http://127.0.0.1:5000/api/login
+2026-08-19 03:42:58,432 - INFO - 127.0.0.1 - - [19/Aug/2026 03:42:58] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/2 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/extra-sessions [POST]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 177, in decorated_function
+    return f(*args, **kwargs)
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 828, in schedule_extra_session
+sqlite3.OperationalError: no such column: telegram_chat_id
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/2 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/2 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    def update_student(sid):
+                          ^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    try:
+    
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 567, in update_student
+    try:
+    
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 458, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Exception on /api/students/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Marmosh 002\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Marmosh 002\Desktop\000\attendance-system\main.py", line 458, in update_student
+    (data['name'], data['level'], data['group_name'], data['parent_name'], data['phone'], sid))
+     ~~~~^^^^^^^^
+KeyError: 'name'
+Unhandled exception on /api/settings/telegram/test: too many values to unpack (expected 2, got 5)
+Unhandled exception on /api/settings/telegram/test: too many values to unpack (expected 2, got 5)
+Unhandled exception on /api/settings/telegram/test: too many values to unpack (expected 2, got 5)
+Unhandled exception on /api/settings/telegram/test: too many values to unpack (expected 2, got 5)
+Unhandled exception on /api/settings/telegram/test: too many values to unpack (expected 2, got 5)
+Unhandled exception on /api/settings/telegram/test: too many values to unpack (expected 2, got 5)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8416921750:AAEI4b21QKxLOPqeX_LaUtIbxFQSVcjS-o4/getUpdates?timeout=20&allowed_updates=message (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.telegram.org', port=443) at 0x21d9adc0690>, 'Connection to api.telegram.org timed out. (connect timeout=30)'))
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5)
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5)
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+WhatsApp sender timeout after 25s for +201093787882
+WhatsApp sender timeout after 25s for +201093787882
+WhatsApp sender timeout after 25s for +201093787882
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5)
+WhatsApp sender timeout after 25s for +201200112233
+WhatsApp sender timeout after 25s for +201200112233
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Telegram polling error: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5)
